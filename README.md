@@ -72,4 +72,6 @@ This is an example tweet improver app modifying the OpenAI API [quickstart tutor
    > flask run
    ```
 
-You should now be able to access the app at [http://localhost:5000](http://localhost:5000) For the full context behind the example app this modifies, check out the OpenAI [quickstart tutorial](https://beta.openai.com/docs/quickstart).
+You should now be able to access the app at [http://localhost:5000](http://localhost:5000).
+
+For the full context behind the example app this modifies, check out the OpenAI [quickstart tutorial](https://beta.openai.com/docs/quickstart).
