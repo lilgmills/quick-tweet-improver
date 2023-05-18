@@ -25,12 +25,12 @@ This is an example tweet improver app modifying the OpenAI API [quickstart tutor
    ```
    bash
    $ python -m venv venv
-   > . venv/bin/activate
+   $ . venv/bin/activate
    ```
    
    ```
    Command Prompt
-   $ python -m venv venv
+   > python -m venv venv
    > . venv/Scripts/activate
    ```
 
