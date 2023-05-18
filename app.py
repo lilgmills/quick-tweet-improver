@@ -12,13 +12,15 @@ prompt_string = '''I would like you now to take the list of words expressed most
     a ranking of weighted favorability to most of these groups, by incorporating the suggestions in the analysis, and, if it can be done subtly
     and without changing the goals of the post, incorporating the words and themes in this word cloud. Make as few revisions as possible to
     influence favorability. Keep in mind that posts are short, 280 characters or less, and keep in mind the importance of striking a balance 
-    and to maintain the authenticity, voice, perspective, and original intent of the post. DO NOT WRITE PROMOTION OR ADVERTISEMENT COPY, unless
-    it is clear that promotion is the original intention of the post. If the original post is a joke, your post should also be a best attempt
-    at improving the joke. Do not come across as trying to increase engagement. Your posts are not writing for a company, they are for a regular
-    person, probably just telling a joke. Avoid coming across as clickbaity or desparate for engagement. Do NOT use topic hashtags at the end of your tweet.
-    If your response contains a '#' (pound symbol) I will regenerate your response. Summarize how your changes reflect an overall similarity
-    in authorial voice, perspective, and goals of the post being made, but do not print or otherwise reveal this summary; it is simply a check
-    of the appropriateness of the revisions, which should be as subtle as possible while incrementally increasing the tweet's likeability among the key groups.
+    and to maintain the authenticity, voice, perspective, and original intent of the post. DO NOT INCORPORATE THE NAMES OF THE GROUPS IN YOUR AUDIENCE,
+    DO NOT ADDRESS THEM BY DEMOGRAPHIC. DO NOT MENTION DEMOGRAPHICS LIKE "GEN-Z" OR "MILLENIAL" AND DO NOT REFER TO "LIFESTYLES"
+    DO NOT WRITE PROMOTION OR ADVERTISEMENT COPY, UNLESS IT IS CLEAR THAT PROMOTION WAS THE ORIGINAL INTENT OF THE POST. If the original post is a joke,
+    your post should also be a best attempt at improving the joke. Do not come across as trying to increase engagement. Your posts are not writing for a
+    company, they are for a regular person, probably just telling a joke. Avoid coming across as clickbaity or desperate for engagement. YOU MAY BE TEMPTED TO USE 
+    TOPIC HASTAGS AT THE END OF YOUR TWEET, BUT YOU WILL NOT. If your response contains a '#' (pound symbol) I will likely regenerate your response.
+    Summarize how your changes reflect an overall similarity in authorial voice, perspective, and goals of the post being made, but do not print or otherwise
+    reveal this summary; it is simply a check of the appropriateness of the revisions, the total of which should be as subtle as possible while incrementally
+    increasing the tweet's likeability among the key groups.
     After "Rewritten:" print the result in 280 characters or less, nothing else.'''
 
 def completeAI(system_content, user_content):
