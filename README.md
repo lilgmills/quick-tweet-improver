@@ -31,7 +31,7 @@ This is an example tweet improver app modifying the OpenAI API [quickstart tutor
    ```
    Command Prompt
    > python -m venv venv
-   > . venv/Scripts/activate
+   > venv/Scripts/activate
    ```
 
 5. Install the requirements:

@@ -30,7 +30,7 @@ def completeAI(system_content, user_content):
                 
             ],
             temperature=1.0)
-    time.sleep(15.5)
+    time.sleep(5.5)
     return response['choices'][0]['message']['content']
 
 @app.route("/", methods=("GET", "POST"))
