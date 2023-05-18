@@ -10,56 +10,66 @@ This is an example tweet improver app modifying the OpenAI API [quickstart tutor
 
 3. Navigate into the project directory:
 
-   ```bash
+   ```
+   bash
    $ cd quick-tweet-improver
    ```
    
-   ```Command Prompt
-   $ cd quick-tweet-improver
+   ```
+   Command Prompt
+   > cd quick-tweet-improver
    ```
 
 4. Create a new virtual environment:
 
-   ```bash
+   ```
+   bash
    $ python -m venv venv
-   $ . venv/bin/activate
+   > . venv/bin/activate
    ```
    
-   ```Command Prompt
+   ```
+   Command Prompt
    $ python -m venv venv
-   $ . venv/Scripts/activate
+   > . venv/Scripts/activate
    ```
 
 5. Install the requirements:
 
-   ```bash
+   ```
+   bash
    $ pip install -r requirements.txt
    ```
    
-   ```Command Prompt
-   $ pip install -r requirements.txt
+   ```
+   Command Prompt
+   > pip install -r requirements.txt
    ```
 
 6. Make a copy of the example environment variables file:
 
-   ```bash
+   ```
+   bash
    $ cp .env.example .env
    ```
    
-   ```Command Prompt
-   $ copy .env.example .env
+   ```
+   Command Prompt
+   > copy .env.example .env
    ```
 
 7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
 
 8. Run the app:
 
-   ```bash
+   ```
+   bash
    $ flask run
    ```
    
-	```Command Prompt
-   $ flask run
+	```
+	Command Prompt
+   > flask run
    ```
 
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000) For the full context behind the example app this modifies, check out the OpenAI [quickstart tutorial](https://beta.openai.com/docs/quickstart).
